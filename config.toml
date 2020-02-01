@@ -5,3 +5,5 @@ theme = "hugo-theme-learn"
 
 [params]
 themeVariant = "xa"
+disableNextPrev = "true"
+ordersectionsby = "weight"
