@@ -1,10 +1,7 @@
 ---
-layout: default
 title: Project Structure
-parent: Architecture
-nav_order: 1
+weight: 1
 ---
-# Summary
 
 As documented in detail elsewhere, the projects managed by the
 Foundation fall into four high-level categories:

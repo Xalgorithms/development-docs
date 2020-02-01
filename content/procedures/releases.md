@@ -1,8 +1,6 @@
 ---
-layout: default
 title: Releases
-parent: Procedures
-nav_order: 3
+weight: 3
 ---
 
 # What is a *release*?

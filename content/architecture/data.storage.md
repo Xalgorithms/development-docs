@@ -1,10 +1,7 @@
 ---
-layout: default
 title: Data Storage
-parent: Architecture
-nav_order: 5
+weight: 5
 ---
-# Summary
 
 This document explains the internal data storage of rules and
 tables. It also explains the mechanisms for matching rules against

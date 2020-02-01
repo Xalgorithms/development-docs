@@ -1,10 +1,7 @@
 ---
-layout: default
 title: Core Architecture
-parent: Architecture
-nav_order: 2
+weight: 2
 ---
-# Summary
 
 This document describes the fundamental architecture of the Interlibr
 platform. The primary role of the platform is to discover, refine and execute

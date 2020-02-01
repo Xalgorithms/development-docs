@@ -1,8 +1,6 @@
 ---
-layout: default
 title: Xalgo Expressions (v0.3.0)
-parent: Architecture
-nav_order: 3
+weight: 3
 ---
 
 # Concepts

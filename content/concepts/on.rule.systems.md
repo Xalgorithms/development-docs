@@ -1,11 +1,9 @@
 ---
 layout: default
-title: On the Nature of Rule Systems
+title: On Rule Systems
 parent: Concepts
 nav_order: 1
 ---
-
-# On the Nature of Rule Systems
 
 The functionality of the Interlibr platform is often - in this documentation -
 referred to as a *rule system*. This can be a confusing terms in some contexts
@@ -13,7 +11,7 @@ because there are a number of different interpretations of the term "rule
 system". In this document, we outline the major categories of *rule systems* and
 compare the Interlibr and Xalgo implementations with those categories.
 
-## Terminology
+# Terminology
 
 Often we will use specific terms that **may not** met common understanding of
 those terms. In this section, we define those terms:
@@ -27,9 +25,9 @@ those terms. In this section, we define those terms:
   software platform. This may be user activity, internal platform behaviours,
   etc.
 
-## Categories of Rule Systems
+# Categories of Rule Systems
 
-### Event / Condition / Action (ECA)
+## Event / Condition / Action (ECA)
 
 This category of *rule system* often appears in event-processing platforms (IoT
 platforms, for example). The *rules* in this category are usually simple
@@ -56,7 +54,7 @@ into the system: `light_switch_is_toggled`. The switch might be up or
 down. Depending on the position, the `signal_light` action is triggered with the
 correct new state for the light.
 
-### Inference / Classification
+## Inference / Classification
 
 This is a common pattern in *expert systems* and it is often referred to as a
 *production rule system*. A *body of knowledge* is built up using a database of
@@ -113,7 +111,7 @@ In many of these exemplar implementations, the inference engine and rules
 submitted to it are often coupled with elements of the other categories in this
 document.
 
-### Workflow
+## Workflow
 
 Often, a rule system must process *documents* according to a prescribed
 procedure or recipe. Some of these steps may require user intervention and
@@ -140,7 +138,7 @@ ODE](https://en.wikipedia.org/wiki/Apache_ODE) is one example using
 [WS-BPEL](https://en.wikipedia.org/wiki/Business_Process_Execution_Language) to
 specify the rules).
 
-### Transformative
+## Transformative
 
 In many cases, information in a solution may need to be *transformed* from one
 representation (or context) to another. For example, from XML to JSON. Rules can
@@ -174,7 +172,7 @@ for Interlibr is:
    expressed as *Xalgo tables*
 1. emit *revisions* to the original document as a key/value set
 
-## Architectural Structure
+# Architectural Structure
 
 The design of the [processing
 pipeline](https://github.com/Xalgorithms/general-documentation/blob/master/pipeline.md)
@@ -191,7 +189,7 @@ distributed architecture pattern** that is also used in ECA and workflow
 systems. Semantic resemblance is misleading in this case, the processing
 pipeline is not intended to be either of these categories.
 
-## Classification of Effective and Applicable
+# Classification of Effective and Applicable
 
 The operations performed in this stage of the pipeline bear a superficial
 resemblance to the operations performed by an *inference rule system*. There are
@@ -239,7 +237,7 @@ pipeline that loosely matches an *inference* system. Using an _actual_ inference
 engine for this component would not introduce a value that is proportional to
 the difficultly of implementing or integrating one.
 
-## Constructing an initial context
+# Constructing an initial context
 
 Since the Xalgo interpreter performs map/reduce/filter operations using document
 and table structures, we need a [mechanism to extract those
@@ -255,7 +253,7 @@ be processed represents a rudimentary form of a *transformative* rule
 system. It is *merely* a one-to-one mapping, so its' usefulness outside of this
 very narrow context is non-existent.
 
-## Executing the rules
+# Executing the rules
 
 The Xalgo *rule language* (or DSL) is inspired by concepts from table-based
 programming. Specifically from [decision
@@ -287,7 +285,7 @@ potential revisions, **not** to act on those revisions.
 **Conclusion**: Xalgo likely represents a transformative rules system but
 considering it as such is not useful and may be detrimental.
 
-## Emitting revisions
+# Emitting revisions
 
 Interlibr emits revisions as a series (officially: an event log) of key/value
 pairs. The key in a revision *represents* a reference into the originally

@@ -1,11 +1,7 @@
 ---
-layout: default
 title: Making Changes
-parent: Procedures
-nav_order: 2
+weight: 2
 ---
-
-# Intent
 
 The purpose of our change protocols allow the entire collective to understand
 *what* needs to be done, *who* improved the changes, *who* approved the changes

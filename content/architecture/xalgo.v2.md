@@ -1,8 +1,6 @@
 ---
-layout: default
 title: Xalgo Expressions (v0.2.0)
-parent: Architecture
-nav_order: 3
+weight: 3
 ---
 
 *This documents an order version of the Xalgo expression language. A newer

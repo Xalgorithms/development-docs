@@ -1,8 +1,8 @@
 ---
 title: "Project Structure"
-date: 2020-01-25T15:18:31-05:00
+weight: 1
 ---
-## Interlibr meta project
+# Interlibr meta project
 
 The *solution* implemented by the
 [Interlibr](https://github.com/Xalgorithms/interlibr) project is a
@@ -20,7 +20,7 @@ maintained in a distinct repository with an independant version. The
 the sum of these subprojects with additional configuration and
 tooling that is *specifically* tailored for the solution.
 
-## Organization of subprojects
+# Organization of subprojects
 
 As mentioned, each subproject is retained in a distinct repository
 with independant versioning. To compose the overall Interlibr
@@ -40,7 +40,3 @@ The subprojects follow a loose organizational convention:
   
 * *libs*: supporting libraries (typically Ruby gems or Scala JARs)
   that are useful to multiple services
-  
-## Adding or removing projects
-
-

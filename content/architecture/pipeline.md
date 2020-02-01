@@ -1,10 +1,7 @@
 ---
-layout: default
 title: Data Processing Pipeline
-parent: Architecture
-nav_order: 4
+weight: 4
 ---
-# Summary
 
 Document processing in Interlibr occurs along a *pipeline* of jobs loosely
 connected via Kafka topics. Each Job in the pipeline performs a specific
