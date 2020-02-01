@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://development.xalgorithms.org/"
 languageCode = "en-us"
 title = "Interlibr Technical Library"
 theme = "hugo-theme-learn"
