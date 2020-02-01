@@ -1,11 +1,9 @@
 +++
 title = "Architecture"
 date = 2020-01-25T18:11:03-05:00
-weight = 5
+weight = 2
 chapter = true
 +++
-
-# Architecture
 
 The set of services that we call Interlibr and the application called Lichen are
 designed as _cloud-native_. This means that they are an arrangement of several -
