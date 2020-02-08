@@ -42,10 +42,6 @@ Github issues associated with the relevant project.
 
 ## Planning board
 
-The collective uses a [waffle planning
-board](https://waffle.io/Xalgorithms/interlibr) for task
-management. A peculiar set of stages is used in the board:
-
 *Preflight*: These are *features* that the team plans to do someday. When
 scheduling a new release, features from preflight may be added to the release.
 
@@ -88,6 +84,4 @@ WHY this change was made and WHAT this change is in this longer description.
 
 In this format, `<issue reference>` can simply be a link to the issue or it can
 be a special *active keyword* used by
-[Github](https://help.github.com/articles/closing-issues-using-keywords/) or
-[Waffle](https://help.waffle.io/faq/waffle-workflow/use-waffles-connect-keyword-to-connect-prs-to-issues). Examples:
-`Closes #nn`, `Connects to #nn`.
+[Github](https://help.github.com/articles/closing-issues-using-keywords/).
