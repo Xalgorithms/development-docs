@@ -1,6 +1,7 @@
 ---
 title: Data Processing Pipeline
 weight: 4
+draft: true
 ---
 
 Document processing in Interlibr occurs along a *pipeline* of jobs loosely

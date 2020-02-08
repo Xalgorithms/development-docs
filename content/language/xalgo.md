@@ -1,6 +1,6 @@
 ---
-title: Xalgo Expressions (v0.3.0)
-weight: 3
+title: Specification
+weight: 1
 ---
 
 # Concepts

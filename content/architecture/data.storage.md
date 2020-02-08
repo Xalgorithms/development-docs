@@ -1,6 +1,7 @@
 ---
 title: Data Storage
 weight: 5
+draft: true
 ---
 
 This document explains the internal data storage of rules and

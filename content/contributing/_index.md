@@ -1,5 +1,5 @@
 +++
-title = "Procedures"
+title = "Contributing"
 date = 2020-01-25T15:17:32-05:00
 weight = 3
 chapter = true
