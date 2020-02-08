@@ -1,7 +1,7 @@
 +++
 title = "Concepts"
 date = 2020-01-25T18:11:03-05:00
-weight = 1
+weight = 3
 chapter = true
 +++
 
