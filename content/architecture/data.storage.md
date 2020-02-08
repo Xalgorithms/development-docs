@@ -4,6 +4,13 @@ weight: 5
 draft: true
 ---
 
+{{% notice warning %}}
+
+This document is *slightly stale*. Some of the conceptual information is still
+valid, but the techinical details have or are changing.
+
+{{% /notice %}}
+
 This document explains the internal data storage of rules and
 tables. It also explains the mechanisms for matching rules against
 input documents. This is related to the [processing

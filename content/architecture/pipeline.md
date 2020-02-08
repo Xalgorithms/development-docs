@@ -4,6 +4,13 @@ weight: 4
 draft: true
 ---
 
+{{% notice warning %}}
+
+This document is *slightly stale*. Some of the conceptual information is still
+valid, but the techinical details have or are changing.
+
+{{% /notice %}}
+
 Document processing in Interlibr occurs along a *pipeline* of jobs loosely
 connected via Kafka topics. Each Job in the pipeline performs a specific
 function - similar to a [cloud

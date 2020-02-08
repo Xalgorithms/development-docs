@@ -1,7 +1,14 @@
 +++
-title = "Platform Architecture"
+title = "Core Architecture"
 weight = 2
 +++
+
+{{% notice info %}}
+
+This document is *a work in progress*. It has been published publicly to help
+reviewers access the document. Some information is missing or incomplete.
+
+{{% /notice %}}
 
 The architecture of the Interlibr platform is inspired by several recent trends
 in [cloud-native](https://www.cncf.io/about/faq/) platform design.
