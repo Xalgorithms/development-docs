@@ -2,7 +2,7 @@
 title = "Interlibr"
 +++
 
-{{% notice info %}}
+{{% notice note %}}
 This is the technical and collaborational documentation for the Interlibr
 project by Xalgorithms. Visit the [organization](https://www.xalgorithms.org)
 for further details about its goals.
