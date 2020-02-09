@@ -35,9 +35,24 @@ technologies have been eliminated from the current architecture. The platform
 still uses Kafka for processing queues, Cassandra for storage of tabular data
 and Akka as the primary async processing foundation.
 
-# Primary Structure
+# Structure
 
-[write about kernel and shell]
+![Core Architecture Diagram](/images/core.architecture.svg)
+
+The Interlibr platform is designed according to a _kernel-shell model_. A
+central compute _kernel_ is surrounding by a _shell_ or _constellation of
+services_ that control access to the services provided by the _kernel_. The
+_kernel_ merely interprets [Xalgo](../language/xalgo) rules. The outer services
+in the shell add additional functionality to the platform that would be required
+by client applications. Communication between the shell and the kernel is via
+_message queues_ that have additional compute capabilities (Kafka, in this
+case).
+
+The advantage of this design is that the outer services are strongly decoupled
+from the central _kernel_. This allows us to experiment with different
+implementations. Considering that the _kernel_ merely implements an
+[interpreter](../language/interpreter) of the language, this also allows a
+_kernel implementation_ to be validated outside of the _service constellation_.
 
 # Kernel
 
