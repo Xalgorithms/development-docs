@@ -52,7 +52,9 @@ The advantage of this design is that the outer services are strongly decoupled
 from the central _kernel_. This allows us to experiment with different
 implementations. Considering that the _kernel_ merely implements an
 [interpreter](../language/interpreter) of the language, this also allows a
-_kernel implementation_ to be validated outside of the _service constellation_.
+_kernel implementation_ to be validated outside of the _service
+constellation_. We are also leaving open the possiblity of having multiple
+supported _kernel_ implementations that can be run in particular contexts.
 
 # Kernel
 
