@@ -135,3 +135,17 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
 }
 
+span.logo {
+    text-transform: uppercase;
+    font-family: "Dosis", sans-serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+    color: #fff;
+    font-size: 44px;
+}
+
+img.logo {
+    height: 38px;
+    margin-right: 8px;
+    vertical-align: text-bottom;
+}
