@@ -30,3 +30,23 @@ reviewers access the document. Some information is missing or incomplete.
 ## Revisions
 
 # Syntax
+
+## ARRANGE
+
+## ASSEMBLE
+
+## DATA
+
+## EFFECTIVE
+
+## GENERATE
+
+## META
+
+## REFINE
+
+## REQUIRE
+
+## REVISE
+
+## WHEN
