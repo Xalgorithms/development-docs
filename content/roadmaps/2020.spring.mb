@@ -1,0 +1,18 @@
++++
+title = "2020 Spring"
+chapter = true
++++
+
+# Goals
+
+Throughout the past Fall and Winter, development work has _slept_. In this time
+of renewal, we have a few projects that we hope to complete:
+
+- [Xalgo/3](https://github.com/orgs/Xalgorithms/projects/8): Experimentation
+  with the language has shown that some necessary things are missing. Changing
+  the language offers a foundation for renewal.
+- [Consistent deployment](https://github.com/orgs/Xalgorithms/projects/14): The
+  tools for getting an environment running are messy and
+  disorganized. Spring-cleaning is required to inspire contributors.
+
+# Milestones within repositories
