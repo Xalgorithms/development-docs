@@ -7,8 +7,9 @@ nav_order: 1
 
 # Context
 
-In the spring of 2020, we attempted to finish the [latest version] of the the
-Xalgo language. We brought in some new collaborators that brought a different
+In the spring of 2020, we attempted to finish the [latest
+version](https://github.com/orgs/Xalgorithms/projects/8) of the the Xalgo
+language. We brought in some new collaborators that brought a different
 perspective on how to do _table-based programming_. This lead us to start to
 reconsider the capabilities of the language and even the scope of the
 language. It was proposed that Xalgo could be _far simpler_ than it is. It might
