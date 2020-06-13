@@ -76,6 +76,9 @@ The website for the brewery is available worldwide, without geofencing. All
 buyers are welcome, but regulations require that only Ontario, Canada deliveries
 are permitted.
 
+The brewery wants to present _all available options_ to customers. If they
+qualify for more than one delivery method, they should be able to choose.
+
 ## Anniversary Party
 
 This is an example of a promotional rule that Britannia ran on their fifth
