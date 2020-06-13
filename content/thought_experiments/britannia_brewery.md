@@ -198,6 +198,9 @@ data_. For this experiment, they determined that their `customer_history` and
 `stock` tables are the most relevant. If other data is needed, let the team know
 and they'll make other tables available.
 
+_This data is exported from their platform using a **very simple** SQL-based
+procedure. It cannot perform complex logic._
+
 The `customer_history` table enumerates past orders for the user associated with
 an order:
 
