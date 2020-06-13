@@ -69,7 +69,7 @@ delivery. These are the criteria for their delivery options:
   delivery is available at a flat rate of 15$.
 - _Free local delivery_: If a buyer spends 60$ before tax or orders 24 or more
   cans, then local delivery is free.
-- _Canada Post_: Orders can be delivered anyway in Ontario using Canada
+- _Canada Post_: Orders can be delivered anywhere in Ontario using Canada
   Post. The rate is 6$ per 12 cans.
   
 The website for the brewery is available worldwide, without geofencing. All
