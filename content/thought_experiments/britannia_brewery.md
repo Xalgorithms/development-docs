@@ -103,7 +103,8 @@ brewery was offering. It was offered from 2020 June - July.
   dozen cans of their english style range in the last 6 months, they get a
   promotional pint glass with a stylized "Dominion of Canada" brewery logo
   designed by a local artist. There must be at least 4 cans of the new porter in
-  the qualifying order.
+  the qualifying order (The new porter is `The Darkness` in the sample data
+  below).
   
 In each of these loyalty offerings, the current order was considered as part of
 the total tally.
