@@ -225,3 +225,4 @@ brewery offers:
 | 5  | The MSB               | british  | brown  | 45   |
 | 6  | After Midnight        | british  | stout  | 20   |
 | 7  | Shed No Tears         | british  | stout  | 15   |
+| 8  | The Darkess           | british  | porter | 25   |
