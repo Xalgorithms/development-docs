@@ -94,7 +94,7 @@ This was a loyalty promotion that featured some new styles of beer that the
 brewery was offering. It was offered from 2020 June - July.
 
 - To promote a new West Coast IPA, if the buyer had ordered beers that had a sum
-  of greater then 1000 IBU in the promotional period, then they got a "Bitter is
+  of greater then 300 IBU in the promotional period, then they got a "Bitter is
   Best" t-shirt.
 - To promote their new British Porter, if the buyer had ordered more than 2
   dozen cans of their english style range in the last 6 months, they get a
