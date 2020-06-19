@@ -243,10 +243,10 @@ an order:
 | 72cb5602 | Andrew Squiggman  | 7        | Shed No Tears         | 95475c5c | 12       | 2020-06-13T00:30:24-04:00 |
 
 **Experimental note**: This table represents "more information about a
-customer". So, while its scheme is currently specific to Britannia Brewery's
-current platform, we can imagine that a scheme could be found or invented that
-generalizes "more informational about a customer" in a while that applies to all
-breweries using these rules.
+customer". So, while its schema is currently specific to Britannia Brewery's
+current platform, we can imagine that a schema could be found or invented that
+generalizes "more informational about a customer" in a manner that applies to
+all breweries using these rules.
 
 <!-- | id       | name              | stock_name            | quantity | IBU  | -->
 <!-- |----------|-------------------|-----------------------|----------|------| -->
@@ -282,3 +282,4 @@ brewery offers:
 
 **Experimental note**: This table represents "more information about stock". We
 would have to imagine that it could be generalized.
+
