@@ -61,15 +61,16 @@ solution for their company.
    
 # The Experiment
 
-Britannia wants to understand how they would have to integrate with Interlibr
-both as a _rule taker_ and a _rule maker_. They have provided the information
-that they have distilled from their site-specific implementation of these
-classes of rules. In the past, they have found the provided information to be
-all that is needed to make context-independent abstractions of rules for their
-platform. They need our help to understand if this data will be sufficient for
-Interlibr. As a _rule maker_, they would like to learn the capabilities and
-limitations of Interlibr by understanding the implementation of one rule from
-each class.
+Britannia wants to understand how they would have to integrate with
+Interlibr. They are currently the only _rule maker_ but they want to understand
+how to enable other breweries to generalize the rules that they have in their
+platform. They have provided the information that they have distilled from their
+site-specific implementation of these classes of rules. In the past, they have
+found the provided information to be all that is needed to make
+context-independent abstractions of rules for their platform. They need our help
+to understand if this data will be sufficient for Interlibr. As a _rule maker_,
+they would like to learn the capabilities and limitations of Interlibr by
+understanding the implementation of one rule from each class.
 
 It is understood by Britannia that some of the rules that are outlined below are
 _specific to their business_ and would not be useful to other breweries as they
