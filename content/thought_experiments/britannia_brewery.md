@@ -17,6 +17,22 @@ even be possible to express what we needed to express in a set of
 _spreadsheet-like tables_, rather than in a textual programming language. This
 experiment is designed to test the results of those conversations.
 
+The intention of this story is to explore _how_ a Rule Taker submits _additional
+information_ (in the form of tables) that is related to the transactional data
+sent to Interlibr for processing but is _not suitable to be included in the
+transactional data_ due to limitations of whichever common schema is chosen for
+the transaction (eg. UBL or some other international standard). We are
+interested in exploring how a rule might reference those additional tables, how
+a rule would manipulate the data in those additional tables and where those
+additional tables would be stored in Interlibr while _avoiding retension_ of
+these tables in the same manner that we avoid retaining the transactional data.
+
+In the story below, there are "tables exported from the customer platform". The
+schema of these tables is _specific_ to that imagined platform. It is assumed
+that in a real implementation of this set of rules, those tables would follow
+some generalized schema agreed on by all parties. There are additional
+experimental notes that accompany each table.
+
 # The Story
 
 The Britannia Brewing Company is an local Ottawa brewing company with an eye to
@@ -54,6 +70,14 @@ platform. They need our help to understand if this data will be sufficient for
 Interlibr. As a _rule maker_, they would like to learn the capabilities and
 limitations of Interlibr by understanding the implementation of one rule from
 each class.
+
+It is understood by Britannia that some of the rules that are outlined below are
+_specific to their business_ and would not be useful to other breweries as they
+are currently expressed. They have discussed these rules will all other
+breweries in their business network and have come to agreement that the
+_classes_ of rules are generally exhaustive for each business (delivery,
+promotional and loyalty) but the specifics of the examples _would need to be
+generalized_ before the rules are usable by all parties.
 
 _Britannia anticipates submitting **each** order individually to
 Interlibr. Please instruct if multiple orders should be submitted as a batch._
@@ -217,6 +241,27 @@ an order:
 | 72cb5602 | Andrew Squiggman  | 3        | Eternally Hoptimistic | 38936c5e | 12       | 2020-06-13T00:30:24-04:00 |
 | 72cb5602 | Andrew Squiggman  | 7        | Shed No Tears         | 95475c5c | 12       | 2020-06-13T00:30:24-04:00 |
 
+**Experimental note**: This table represents "more information about a
+customer". So, while its scheme is currently specific to Britannia Brewery's
+current platform, we can imagine that a scheme could be found or invented that
+generalizes "more informational about a customer" in a while that applies to all
+breweries using these rules.
+
+<!-- | id       | name              | stock_name            | quantity | IBU  | -->
+<!-- |----------|-------------------|-----------------------|----------|------| -->
+<!-- | 27eb11cd | Laverne DeFazio   | Dirty Blonde          | 12       | 20   | -->
+<!-- | 675b70ec | Shirley Feeney    | Eternally Hoptimistic | 24       | 38.5 | -->
+<!-- | 6bc91ad2 | Leonard Kosnowski | Amber Rose            | 48       | 30   | -->
+<!-- | 72cb5602 | Andrew Squiggman  | The MSB               | 6        | 45   | -->
+<!-- | 72cb5602 | Andrew Squiggman  | Eternally Hoptimistic | 12       | 38.5 | -->
+<!-- | 72cb5602 | Andrew Squiggman  | Shed No Tears         | 12       | 15   | -->
+
+<!-- | id       | name              | stock_name            | quantity | IBU  | -->
+<!-- |----------|-------------------|-----------------------|----------|------| -->
+<!-- | 72cb5602 | Andrew Squiggman  | The MSB               | 6        | 45   | -->
+<!-- | 72cb5602 | Andrew Squiggman  | Eternally Hoptimistic | 12       | 38.5 | -->
+<!-- | 72cb5602 | Andrew Squiggman  | Shed No Tears         | 12       | 15   | -->
+
 The `order_date` column is an ISO8601 date. The `id` and `order_id` are unique,
 random hexes generated at first use.
 
@@ -233,3 +278,6 @@ brewery offers:
 | 6  | After Midnight        | british  | stout  | 20   |
 | 7  | Shed No Tears         | british  | stout  | 15   |
 | 8  | The Darkess           | british  | porter | 25   |
+
+**Experimental note**: This table represents "more information about stock". We
+would have to imagine that it could be generalized.
