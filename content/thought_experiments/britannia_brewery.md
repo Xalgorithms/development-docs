@@ -5,6 +5,28 @@ parent: Thought Experiments
 nav_order: 1
 ---
 
+{{% notice info %}}
+
+This experiment has finished. The conclusion is presented first. Read the entire
+experiment for details referenced in the conclusion.
+
+{{% /notice %}}
+
+# Conclusion
+
+The crux of the experiment was to determine whether a
+[rule-taker](/concepts/glossary#rule-taker) should be able to submit _additional
+tables_ and whether those tables could be referenced in [rules that were
+matched](/concepts/matching). After discussion of this experiment, we concluded
+that rule-takers **cannot submit additional tables** with a transaction. This
+resulted in a deeper understanding of the simplicity of the problem before us
+which, in turn, lead to a significant change in the [core
+architecture](/architecture/core.architecture) of the solution. Previously,
+having assumed that additional tables could be submitted, we needed to have the
+ability to _manipulate those tables_ within the expression of a rule. We also
+required a significant compute platform to _execute those manipulations_. Those
+facilities have now been eliminated from the project.
+
 # Context
 
 In the spring of 2020, we attempted to finish the [latest
