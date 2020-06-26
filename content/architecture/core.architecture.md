@@ -15,22 +15,3 @@ reviewers access the document. Some information is missing or incomplete.
 
 ![Core Architecture Diagram](/images/architecture/interlibr.overview.svg)
 
-# Kernel
-
-## Tables
-
-## Jobs
-
-[network of jobs]
-
-# Shell
-
-## Submissions
-
-## Rules
-
-## Queries
-
-## Revisions
-
-
